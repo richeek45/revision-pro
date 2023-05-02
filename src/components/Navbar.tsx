@@ -1,9 +1,14 @@
 import React from 'react'
 import "../styles/globals.css"
+import { useRouter } from 'next/router'
+
 
 const Navbar = () => {
+  const router = useRouter()
+
   const handleOpenSideBar = () => {
-    console.log('It is working')
+    console.log('It is working', router)
+    router.push("/")
   }
 
   return (
@@ -11,7 +16,7 @@ const Navbar = () => {
       <button onClick={handleOpenSideBar} className='cursor-pointer text-white bg-violet-500 p-2 px-6 rounded shadow-md mr-10 ml-10'>
         Home 
       </button>
-      <div>Navbar</div>
+      <div>Navbar </div>
 
     </div>
   )
