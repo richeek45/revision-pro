@@ -6,7 +6,8 @@ interface List {
     text: string;
 }
 
-const content = [{ route: "/collections", text: "Your Collections" }, { route: "/lastviewed", text: "Previously Viewed Tests" }, { route: "/stats", text: "Your Stats" }]
+const content = [{ route: "/collections", text: "Your Collections" }, { route: "/lastviewed", text: "Previously Viewed Tests" }, { route: "/stats", text: "Your Stats" }, 
+{route: "/settings", text: "Settings" }, {route: "/trash", text: "Trash"} ]
 const SideBar = () => {
     console.log(content)
     return (
