@@ -1,5 +1,4 @@
 import React from 'react'
-import "../styles/globals.css"
 import { useRouter } from 'next/router'
 
 
