@@ -5,18 +5,18 @@ import SideBar from '../components/SideBar'
 
 export default function Home() {
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between`}>
+    <main className={`flex w-full max-h-screen flex-col justify-start`}>
       <Navbar />
-      <div className='flex justify-between w-full h-screen'>
+      <div>
         <SideBar /> 
         content
+        {/* <section></section>
+        <article></article>
+        <aside></aside>
+        <footer></footer>
+        <details></details>
+        <summary></summary> */}
       </div>
-      <section></section>
-      <article></article>
-      <aside></aside>
-      <footer></footer>
-      <details></details>
-      <summary></summary>
     </main>
   )
 }
