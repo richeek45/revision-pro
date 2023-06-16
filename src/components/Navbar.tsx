@@ -11,11 +11,11 @@ const Navbar = () => {
   }
 
   return (
-    <div className='flex justify-between shadow-sm p-2 border-2 w-full m-4' >
+    <div className='flex justify-between shadow-sm p-2 border-2 w-full' >
       <button onClick={handleOpenSideBar} className='cursor-pointer text-white bg-violet-500 p-2 px-6 rounded shadow-md mr-10 ml-10'>
         Home 
       </button>
-      <div>Navbar </div>
+      <div className="text-slate-700">NAVBAR </div>
 
     </div>
   )
