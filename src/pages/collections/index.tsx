@@ -7,8 +7,8 @@ import NavbarWrapper from '@/components/NavbarWrapper'
 const Collections = () => {
   return (
     <NavbarWrapper>
-      <div className='flex flex-col items-center justify-between bg-white'>
-        <CreateNewCard /> 
+      <div className='flex flex-col items-center justify-between bg-white mt-5'>
+        <CreateNewCard />
       </div>
     </NavbarWrapper>
   )
